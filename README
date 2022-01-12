@@ -1,0 +1,18 @@
+Dobble Card Generator
+Command Line Client
+
+Syntax:
+java -jar SF_Dobble.jar <Number of symbols> <Labels input file> <Output file>
+
+Example:
+Generate cards with 8 symbols, integer symbol names, output to the terminal:
+java -jar SF_Dobble.jar 8 
+
+Generate cards with 8 symbols, symbol names from file "Countries.csv", output to the terminal:
+java -jar SF_Dobble.jar 8 Countries.csv
+
+Generate cards with 8 symbols, symbol names from file "Countries.csv", write to file "Cards.csv"
+java -jar SF_Dobble.jar 8 Countries.csv Cards.csv
+
+
+
